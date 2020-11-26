@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>
+            About
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+    <ion-button (click)="openAboutPage()">Open about in root</ion-button>
+    <ion-button (click)="logTopOutlet()">Log top outlet</ion-button>
+    <ion-button (click)="back()">Back</ion-button>
+</ion-content>
